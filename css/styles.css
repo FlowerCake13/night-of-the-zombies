@@ -1,0 +1,49 @@
+html, body{
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: rgba(255,213,147,0.25);
+}
+
+#modal {
+	display: none;
+	position: fixed; 
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(255,213,147,0.3);
+}
+
+#modal-content {
+	text-align: center;
+	background-color: #ffdba3;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	height: auto;
+	width: 25%;
+}
+
+#instWords{
+	word-wrap: break-word;
+}
+
+#container{
+	height: 100%;
+	width: 100%;
+}
+
+#player{
+	height: auto;
+	width: auto;
+	position: fixed;
+}
+
+#tombstone{
+	position: fixed;
+	left: 300px;
+	top: 300px;
+}
